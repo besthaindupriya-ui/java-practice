@@ -16,7 +16,7 @@ class BubbleSort
 	{
 		System.out.print(a[i]+" ");
 	}
-	for(int i=0;i<a.length;i++)
+	for(int i=0;i<a.length;i++)      // for less time comp.=(j=0;j<a.length-i-1;j++)
 	{
 		for(int j=0;j<a.length-1;j++)
 		{
